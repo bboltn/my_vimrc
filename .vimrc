@@ -19,7 +19,7 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 "line number
 set number
 
-"set ruler to 80
+"set ruler to 85
 set colorcolumn=85
 
 "Tab
