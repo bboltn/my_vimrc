@@ -6,6 +6,11 @@ filetype plugin indent on
 "vim-solarized config
 syntax enable
 set background=dark
+
+if ! has('gui_running')
+	let g:solarized_termcolors=256
+endif
+
 colorscheme solarized
 
 "CtrlP config
@@ -45,5 +50,3 @@ set undodir=~/.vim/undo
 
 "let me copy/paste from any vim instance to any other app
 set clipboard=unnamed
-
-"hey this is a new edit
